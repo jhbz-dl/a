@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>大连金汇包装 - 公司实力</title>
+  <meta name="keywords" content="大连金汇包装,公司实力,生产设备,资质荣誉,技术团队">
+  <meta name="description" content="大连金汇包装材料有限公司展示企业实力，包括生产设备、技术团队、资质认证等核心竞争力">
+  <!-- 引入Tailwind CSS -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <!-- 引入Font Awesome -->
+  <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
+  <!-- Tailwind配置 -->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            primary: '#d00',
+            secondary: '#292a2c',
+            accent: '#f7941d',
+            neutral: '#f5f5f5',
+          },
+          fontFamily: {
+            sans: ['Inter', 'system-ui', 'sans-serif'],
+          },
+        },
+      }
+    }
+  </script>
+  
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content-auto {
+        content-visibility: auto;
+      }
+      .text-shadow {
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+      .hover-scale {
+        transition: transform 0.3s ease;
+      }
+      .hover-scale:hover {
+        transform: scale(1.05);
+      }
+      .animate-fade-in {
+        animation: fadeIn 0.8s ease-in-out;
+      }
+      .animate-slide-up {
+        animation: slideUp 0.8s ease-out;
+      }
+      .animate-slide-right {
+        animation: slideRight 0.8s ease-out;
+      }
+      @keyframes fadeIn {
+        from { opacity: 0; }
+        to { opacity: 1; }
+      }
+      @keyframes slideUp {
+        from { transform: translateY(50px); opacity: 0; }
+        to { transform: translateY(0); opacity: 1; }
+      }
+      @keyframes slideRight {
+        from { transform: translateX(-50px); opacity: 0; }
+        to { transform: translateX(0); opacity: 1; }
+      }
+    }
+  </style>
+  
+</head>
+
+<body class="font-sans text-gray-800">
+  <!-- 导航栏 -->
+  <header class="sticky top-0 z-50 bg-white shadow-md transition-all duration-300">
+    <div class="container mx-auto px-4">
+      <div class="flex justify-between items-center py-1">
+        <!-- Logo区域 -->
+        <div class="flex items-center">
+          <a href="cur.html" class="flex items-center">
+            <img src="logo.jpg" alt="大连金汇包装" class="h-14 md:h-16 object-contain">
+            <div class="ml-4 hidden md:block">
+              <h1 class="text-lg md:text-xl font-bold text-primary">大连金汇包装材料有限公司</h1>
+              <p class="text-sm text-gray-600">27年专注于彩印包装研发制造</p>
+            </div>
+          </a>
+        </div>
+        
+        <!-- 联系信息 -->
+        <div class="hidden md:flex items-center space-x-6">
+          <div class="flex items-center">
+            <i class="fa fa-phone text-primary text-xl mr-2"></i>
+            <div>
+              <p class="text-sm text-gray-500">服务热线</p>
+              <p class="font-bold text-lg">15040580736</p>
+            </div>
+          </div>
+        </div>
+        
+        <!-- 移动端菜单按钮 -->
+        <button id="mobile-menu-button" class="md:hidden text-gray-700 focus:outline-none">
+          <i class="fa fa-bars text-2xl"></i>
+        </button>
+      </div>
+      
+      <!-- 导航菜单 -->
+      <nav id="main-nav" class="hidden md:flex justify-between items-center py-2 border-t border-gray-100">
+        <ul class="flex space-x-1">
+          <li><a href="cur.html" class="block px-4 py-2 text-gray-700 font-medium hover:bg-gray-50 hover:text-primary rounded transition-colors">网站首页</a></li>
+          <li><a href="product.html" class="block px-4 py-2 text-gray-700 font-medium hover:bg-gray-50 hover:text-primary rounded transition-colors">产品与案例</a></li>
+          <li><a href="rongyu.html" class="block px-4 py-2 text-gray-700 font-medium hover:bg-gray-50 hover:text-primary rounded transition-colors">荣誉资质</a></li>
+          <li><a href="Factory.html" class="block px-4 py-2 text-primary font-medium hover:bg-gray-50 rounded transition-colors">公司实力</a></li>
+          <li><a href="info.html" class="block px-4 py-2 text-gray-700 font-medium hover:bg-gray-50 hover:text-primary rounded transition-colors">资讯中心</a></li>
+          <li><a href="job.html" class="block px-4 py-2 text-gray-700 font-medium hover:bg-gray-50 hover:text-primary rounded transition-colors">人才招聘</a></li>
+          <li><a href="About.html" class="block px-4 py-2 text-gray-700 font-medium hover:bg-gray-50 hover:text-primary rounded transition-colors">关于我们</a></li>
+          <li><a href="lianxi.html" class="block px-4 py-2 text-gray-700 font-medium hover:bg-gray-50 hover:text-primary rounded transition-colors">联系方式</a></li>
+        </ul>
+      </nav>
+      
+      <!-- 移动端菜单 -->
+      <nav id="mobile-nav" class="md:hidden hidden pb-4">
+        <ul class="space-y-1">
+          <li><a href="cur.html" class="block px-4 py-2 text-gray-700 font-medium hover:bg-gray-50 hover:text-primary rounded transition-colors">网站首页</a></li>
+          <li><a href="product.html" class="block px-4 py-2 text-gray-700 font-medium hover:bg-gray-50 hover:text-primary rounded transition-colors">产品与案例</a></li>
+          <li><a href="rongyu.html" class="block px-4 py-2 text-gray-700 font-medium hover:bg-gray-50 hover:text-primary rounded transition-colors">荣誉资质</a></li>
+          <li><a href="Factory.html" class="block px-4 py-2 text-primary font-medium bg-gray-50 rounded">公司实力</a></li>
+          <li><a href="info.html" class="block px-4 py-2 text-gray-700 font-medium hover:bg-gray-50 hover:text-primary rounded transition-colors">资讯中心</a></li>
+          <li><a href="job.html" class="block px-4 py-2 text-gray-700 font-medium hover:bg-gray-50 hover:text-primary rounded transition-colors">人才招聘</a></li>
+          <li><a href="About.html" class="block px-4 py-2 text-gray-700 font-medium hover:bg-gray-50 hover:text-primary rounded transition-colors">关于我们</a></li>
+          <li><a href="About.html" class="block px-4 py-2 text-gray-700 font-medium hover:bg-gray-50 hover:text-primary rounded transition-colors">联系我们</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- 公司实力概览 -->
+  <section class="py-16 bg-neutral">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-secondary mb-4">企业实力概览</h2>
+        <div class="w-20 h-1 bg-primary mx-auto mb-6"></div>
+        <p class="text-gray-600 max-w-3xl mx-auto">
+          大连金汇包装材料有限公司成立于1998年，是一家集彩印包装研发、设计、生产为一体的综合性企业，拥有行业领先的技术实力和生产能力
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+        <div class="animate-slide-right">
+          <img src="DSC_4937.jpg" alt="公司全景" class="w-full h-auto rounded-lg shadow-xl hover-scale">
+        </div>
+        <div class="animate-slide-up">
+          <h3 class="text-2xl font-bold text-secondary mb-6">27年专注彩印包装领域的行业标杆</h3>
+          <p class="text-gray-700 mb-6 leading-relaxed">
+            公司占地面积50余亩，建筑面积5000多平方米，固定资产4000余万元，年产值超亿元。作为东北包装行业的高新技术企业，我们始终坚持技术创新和品质优先的发展战略，为客户提供从包装设计到生产落地的一站式解决方案。
+          </p>
+          
+          <!-- 核心数据统计 - 修复响应式和数字动画 -->
+          <div class="grid grid-cols-2 sm:grid-cols-4 gap-4 md:gap-6 mb-8" id="stats-container">
+            <div class="bg-white p-4 md:p-6 rounded-lg shadow-md text-center">
+              <div class="text-2xl sm:text-3xl font-bold text-primary count-up" data-target="27" data-speed="2000">0</div>
+              <p class="text-gray-600 text-sm">年行业经验</p>
+            </div>
+            <div class="bg-white p-4 md:p-6 rounded-lg shadow-md text-center">
+              <div class="text-2xl sm:text-3xl font-bold text-primary count-up" data-target="5000" data-speed="2500">0</div>
+              <p class="text-gray-600 text-sm">㎡厂房面积</p>
+            </div>
+            <div class="bg-white p-4 md:p-6 rounded-lg shadow-md text-center">
+              <div class="text-2xl sm:text-3xl font-bold text-primary count-up" data-target="50" data-speed="1800">0</div>
+              <p class="text-gray-600 text-sm">余亩占地面积</p>
+            </div>
+            <div class="bg-white p-4 md:p-6 rounded-lg shadow-md text-center">
+              <div class="text-2xl sm:text-3xl font-bold text-primary count-up" data-target="100" data-speed="2200">0</div>
+              <p class="text-gray-600 text-sm">+专业员工</p>
+            </div>
+          </div>
+          
+          <a href="About.html" class="inline-flex items-center text-primary font-medium hover:underline">
+            了解更多公司信息 <i class="fa fa-arrow-right ml-2"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- 生产设备展示 - 网格布局 -->
+  <section id="equipment" class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-secondary mb-4">先进生产设备</h2>
+        <div class="w-20 h-1 bg-primary mx-auto mb-6"></div>
+        <p class="text-gray-600 max-w-3xl mx-auto">
+          引进国际领先的生产设备，实现自动化、智能化生产，确保产品精度和生产效率
+        </p>
+      </div>
+      
+      <!-- 设备网格布局 -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div class="bg-white rounded-lg overflow-hidden shadow-md hover-scale group">
+          <div class="relative h-64 overflow-hidden">
+            <img src="yinshua.jpg" alt="高速印刷机" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+            <div class="absolute inset-0 bg-primary bg-opacity-0 group-hover:bg-opacity-30 transition-opacity flex items-center justify-center">
+              <a href="sl1.html" class="bg-white text-primary px-4 py-2 rounded-full transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all">查看详情</a>
+            </div>
+          </div>
+          <div class="p-4">
+            <h3 class="font-bold text-lg mb-2">高速印刷机</h3>
+            <p class="text-gray-600">10色高速印刷，精度达0.01mm，支持复杂图案印刷</p>
+          </div>
+        </div>
+		
+		<div class="bg-white rounded-lg overflow-hidden shadow-md hover-scale group">
+		  <div class="relative h-64 overflow-hidden">
+		    <img src="九seji.jpg" alt="高速印刷机" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+		    <div class="absolute inset-0 bg-primary bg-opacity-0 group-hover:bg-opacity-30 transition-opacity flex items-center justify-center">
+		      <a href="sl2.html" class="bg-white text-primary px-4 py-2 rounded-full transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all">查看详情</a>
+		    </div>
+		  </div>
+		  <div class="p-4">
+		    <h3 class="font-bold text-lg mb-2">高速印刷机</h3>
+		    <p class="text-gray-600">9色高速印刷，精度达0.01mm，支持复杂图案印刷</p>
+		  </div>
+		</div>
+		
+        
+        <div class="bg-white rounded-lg overflow-hidden shadow-md hover-scale group">
+          <div class="relative h-64 overflow-hidden">
+            <img src="d23092684676d0a29d4ddc9189fcf6e.jpg" alt="复合设备" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+            <div class="absolute inset-0 bg-primary bg-opacity-0 group-hover:bg-opacity-30 transition-opacity flex items-center justify-center">
+              <a href="sl3.html" class="bg-white text-primary px-4 py-2 rounded-full transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all">查看详情</a>
+            </div>
+          </div>
+          <div class="p-4">
+            <h3 class="font-bold text-lg mb-2">多层复合设备</h3>
+            <p class="text-gray-600">智能温控复合技术，确保材料粘合强度和稳定性</p>
+          </div>
+        </div>
+		
+		<div class="bg-white rounded-lg overflow-hidden shadow-md hover-scale group">
+		  <div class="relative h-64 overflow-hidden">
+		    <img src="wurongji.jpg" alt="复合设备" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+		    <div class="absolute inset-0 bg-primary bg-opacity-0 group-hover:bg-opacity-30 transition-opacity flex items-center justify-center">
+		      <a href="sl4.html" class="bg-white text-primary px-4 py-2 rounded-full transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all">查看详情</a>
+		    </div>
+		  </div>
+		  <div class="p-4">
+		    <h3 class="font-bold text-lg mb-2">无溶剂复合设备</h3>
+		    <p class="text-gray-600">高速稳定无溶剂复合，每分钟最快可达到400米</p>
+		  </div>
+		</div>
+		
+        
+        <div class="bg-white rounded-lg overflow-hidden shadow-md hover-scale group">
+          <div class="relative h-64 overflow-hidden">
+            <img src="制袋车间.JPG" alt="全自动制袋机" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+            <div class="absolute inset-0 bg-primary bg-opacity-0 group-hover:bg-opacity-30 transition-opacity flex items-center justify-center">
+              <a href="sl5.html" class="bg-white text-primary px-4 py-2 rounded-full transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all">查看详情</a>
+            </div>
+          </div>
+          <div class="p-4">
+            <h3 class="font-bold text-lg mb-2">全自动制袋机</h3>
+            <p class="text-gray-600">支持多种袋型生产，每分钟可生产200+个包装袋</p>
+          </div>
+        </div>
+        
+        <div class="bg-white rounded-lg overflow-hidden shadow-md hover-scale group">
+          <div class="relative h-64 overflow-hidden">
+            <img src="fenqie.jpg" alt="高速分切机" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+            <div class="absolute inset-0 bg-primary bg-opacity-0 group-hover:bg-opacity-30 transition-opacity flex items-center justify-center">
+              <a href="sl6.html" class="bg-white text-primary px-4 py-2 rounded-full transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all">查看详情</a>
+            </div>
+          </div>
+          <div class="p-4">
+            <h3 class="font-bold text-lg mb-2">高速分切机</h3>
+            <p class="text-gray-600">高速分切，每分钟最高分切速度400+/min</p>
+          </div>
+        </div>
+        
+        <div class="bg-white rounded-lg overflow-hidden shadow-md hover-scale group">
+          <div class="relative h-64 overflow-hidden">
+            <img src="jianpin.jpg" alt="高精度检品机" class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+            <div class="absolute inset-0 bg-primary bg-opacity-0 group-hover:bg-opacity-30 transition-opacity flex items-center justify-center">
+              <a href="sl7.html" class="bg-white text-primary px-4 py-2 rounded-full transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all">查看详情</a>
+            </div>
+          </div>
+          <div class="p-4">
+            <h3 class="font-bold text-lg mb-2">高精度检品机</h3>
+            <p class="text-gray-600">检测成品，将问题全部控制在厂内</p>
+          </div>
+        </div>
+		
+		<div class="bg-white rounded-lg overflow-hidden shadow-md hover-scale group">
+		  <div class="relative h-64 overflow-hidden">
+		    <img src="GBL-L电子拉力试验机.jpg" alt=" " class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+		    <div class="absolute inset-0 bg-primary bg-opacity-0 group-hover:bg-opacity-30 transition-opacity flex items-center justify-center">
+		      <a href="sl8.html" class="bg-white text-primary px-4 py-2 rounded-full transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all">查看详情</a>
+		    </div>
+		  </div>
+		  <div class="p-4">
+		    <h3 class="font-bold text-lg mb-2">电子拉力试验机</h3>
+		    <p class="text-gray-600">检测成品是否符合规范</p>
+		  </div>
+		</div>
+		
+		<div class="bg-white rounded-lg overflow-hidden shadow-md hover-scale group">
+		  <div class="relative h-64 overflow-hidden">
+		    <img src="zm-100反压蒸煮锅.jpg" alt=" " class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+		    <div class="absolute inset-0 bg-primary bg-opacity-0 group-hover:bg-opacity-30 transition-opacity flex items-center justify-center">
+		      <a href="sl9.html" class="bg-white text-primary px-4 py-2 rounded-full transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all">查看详情</a>
+		    </div>
+		  </div>
+		  <div class="p-4">
+		    <h3 class="font-bold text-lg mb-2">高温反压蒸煮锅</h3>
+		    <p class="text-gray-600">高温蒸煮产品检测</p>
+		  </div>
+		</div>
+		
+		<div class="bg-white rounded-lg overflow-hidden shadow-md hover-scale group">
+		  <div class="relative h-64 overflow-hidden">
+		    <img src="moca.jpg" alt=" " class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+		    <div class="absolute inset-0 bg-primary bg-opacity-0 group-hover:bg-opacity-30 transition-opacity flex items-center justify-center">
+		      <a href="sl10.html" class="bg-white text-primary px-4 py-2 rounded-full transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all">查看详情</a>
+		    </div>
+		  </div>
+		  <div class="p-4">
+		    <h3 class="font-bold text-lg mb-2">摩擦系数检测</h3>
+		    <p class="text-gray-600">检测产品摩擦系数是否复合要求</p>
+		  </div>
+		</div>
+		
+		
+		<div class="bg-white rounded-lg overflow-hidden shadow-md hover-scale group">
+		  <div class="relative h-64 overflow-hidden">
+		    <img src="refeng.jpg" alt=" " class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+		    <div class="absolute inset-0 bg-primary bg-opacity-0 group-hover:bg-opacity-30 transition-opacity flex items-center justify-center">
+		      <a href="sl11.html" class="bg-white text-primary px-4 py-2 rounded-full transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all">查看详情</a>
+		    </div>
+		  </div>
+		  <div class="p-4">
+		    <h3 class="font-bold text-lg mb-2">热封强度检测</h3>
+		    <p class="text-gray-600">热封强度检测</p>
+		  </div>
+		</div>
+		
+		<div class="bg-white rounded-lg overflow-hidden shadow-md hover-scale group">
+		  <div class="relative h-64 overflow-hidden">
+		    <img src="kezhong.jpg" alt=" " class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+		    <div class="absolute inset-0 bg-primary bg-opacity-0 group-hover:bg-opacity-30 transition-opacity flex items-center justify-center">
+		      <a href="sl12.html" class="bg-white text-primary px-4 py-2 rounded-full transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all">查看详情</a>
+		    </div>
+		  </div>
+		  <div class="p-4">
+		    <h3 class="font-bold text-lg mb-2">克重</h3>
+		    <p class="text-gray-600">克重称</p>
+		  </div>
+		</div>
+		
+		<div class="bg-white rounded-lg overflow-hidden shadow-md hover-scale group">
+		  <div class="relative h-64 overflow-hidden">
+		    <img src="mifeng1.jpg" alt=" " class="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110">
+		    <div class="absolute inset-0 bg-primary bg-opacity-0 group-hover:bg-opacity-30 transition-opacity flex items-center justify-center">
+		      <a href="sl13.html" class="bg-white text-primary px-4 py-2 rounded-full transform translate-y-4 opacity-0 group-hover:translate-y-0 group-hover:opacity-100 transition-all">查看详情</a>
+		    </div>
+		  </div>
+		  <div class="p-4">
+		    <h3 class="font-bold text-lg mb-2">密封仪</h3>
+		    <p class="text-gray-600">密封实验检测</p>
+		  </div>
+		</div>
+		
+      </div>
+	  
+	  
+     
+      <!-- 设备优势 -->
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
+        <div class="bg-white p-8 rounded-lg shadow-md text-center hover-scale">
+          <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+            <i class="fa fa-cogs text-primary text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-4">国际领先设备</h3>
+          <p class="text-gray-600">
+            引进德国、日本等国先进设备，设备精度和稳定性达到国际一流水平
+          </p>
+        </div>
+        <div class="bg-white p-8 rounded-lg shadow-md text-center hover-scale">
+          <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+            <i class="fa fa-bolt text-primary text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-4">高效生产能力</h3>
+          <p class="text-gray-600">
+            自动化生产线大幅提升生产效率，月产能可达500吨以上包装材料
+          </p>
+        </div>
+        <div class="bg-white p-8 rounded-lg shadow-md text-center hover-scale">
+          <div class="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-6">
+            <i class="fa fa-sliders text-primary text-2xl"></i>
+          </div>
+          <h3 class="text-xl font-bold mb-4">智能控制系统</h3>
+          <p class="text-gray-600">
+            设备搭载智能控制系统，实现生产过程精准调控和数据化管理
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 技术团队与研发实力 -->
+  <section class="py-16 bg-gray-50">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-secondary mb-4">技术研发实力</h2>
+        <div class="w-20 h-1 bg-primary mx-auto mb-6"></div>
+        <p class="text-gray-600 max-w-3xl mx-auto">
+          拥有专业的技术研发团队，持续投入创新研发，为客户提供定制化包装解决方案
+        </p>
+      </div>
+      
+      <div class="grid md:grid-cols-2 gap-12 items-center">
+        <div class="animate-slide-right">
+          <img src="https://img1.baidu.com/it/u=2806932709,3976287065&fm=253&fmt=auto&app=120&f=JPEG?w=713&h=475" alt="技术团队" class="w-full h-auto rounded-lg shadow-xl hover-scale">
+        </div>
+        <div class="animate-slide-up">
+          <h3 class="text-2xl font-bold text-secondary mb-6">专业团队驱动技术创新</h3>
+          <p class="text-gray-700 mb-6 leading-relaxed">
+            公司拥有一支由20余名资深工程师组成的研发团队，其中包括印刷工艺专家、材料科学博士和包装设计大师。我们与多所高校和科研机构建立了长期合作关系，不断探索新材料、新工艺在包装领域的应用。
+          </p>
+          
+          <div class="space-y-4 mb-8">
+            <div class="flex items-start">
+              <div class="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center mt-1 mr-4 flex-shrink-0">
+                <i class="fa fa-check text-primary"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-lg mb-1">定制化解决方案</h4>
+                <p class="text-gray-600">根据客户需求提供从材料选型、结构设计到印刷工艺的全流程定制服务</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center mt-1 mr-4 flex-shrink-0">
+                <i class="fa fa-check text-primary"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-lg mb-1">新材料研发应用</h4>
+                <p class="text-gray-600">专注于环保包装材料研发，推出可降解、可回收的新型包装解决方案</p>
+              </div>
+            </div>
+            <div class="flex items-start">
+              <div class="w-10 h-10 bg-primary/10 rounded-full flex items-center justify-center mt-1 mr-4 flex-shrink-0">
+                <i class="fa fa-check text-primary"></i>
+              </div>
+              <div>
+                <h4 class="font-bold text-lg mb-1">工艺优化创新</h4>
+                <p class="text-gray-600">持续优化印刷、复合、制袋等工艺，提升产品质量和生产效率</p>
+              </div>
+            </div>
+          </div>
+          
+          <a href="job.html" class="inline-flex items-center text-primary font-medium hover:underline">
+            加入我们的团队 <i class="fa fa-arrow-right ml-2"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 合作伙伴 -->
+  <section class="py-16 bg-white">
+    <div class="container mx-auto px-4">
+      <div class="text-center mb-12">
+        <h2 class="text-[clamp(1.5rem,3vw,2.5rem)] font-bold text-secondary mb-4">合作伙伴</h2>
+        <div class="w-20 h-1 bg-primary mx-auto mb-6"></div>
+        <p class="text-gray-600 max-w-3xl mx-auto">
+          与众多知名企业建立长期合作关系，共同推动包装行业发展
+        </p>
+      </div>
+      
+      <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+        <div class="bg-gray-50 p-6 rounded-lg flex items-center justify-center hover-scale">
+          <img src="金田麦logo.png" alt="合作伙伴Logo" class="max-h-12 opacity-70 hover:opacity-100 transition-opacity">
+        </div>
+        <div class="bg-gray-50 p-6 rounded-lg flex items-center justify-center hover-scale">
+          <img src="瑞驰logo.png" alt="合作伙伴Logo" class="max-h-12 opacity-70 hover:opacity-100 transition-opacity">
+        </div>
+        <div class="bg-gray-50 p-6 rounded-lg flex items-center justify-center hover-scale">
+          <img src="Logo-3m.png" alt="合作伙伴Logo" class="max-h-12 opacity-70 hover:opacity-100 transition-opacity">
+        </div>
+        <div class="bg-gray-50 p-6 rounded-lg flex items-center justify-center hover-scale">
+          <img src="亚鱼logo.png" alt="合作伙伴Logo" class="max-h-12 opacity-70 hover:opacity-100 transition-opacity">
+        </div>
+        <div class="bg-gray-50 p-6 rounded-lg flex items-center justify-center hover-scale">
+          <img src="渔大叔logo.png" alt="合作伙伴Logo" class="max-h-12 opacity-70 hover:opacity-100 transition-opacity">
+        </div>
+        <div class="bg-gray-50 p-6 rounded-lg flex items-center justify-center hover-scale">
+          <img src="HM1.png" alt="合作伙伴Logo" class="max-h-12 opacity-70 hover:opacity-100 transition-opacity">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 页脚 -->
+<footer class="bg-gradient-to-br from-blue-900 to-blue-800 text-gray-100 py-8 overflow-hidden relative">
+  <!-- 装饰背景元素 -->
+  <div class="absolute top-0 right-0 w-1/4 h-2/3 opacity-10">
+    <svg viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#FFFFFF" d="M32.1,-52.1C41.5,-46.6,48.9,-38.3,53.2,-28.1C57.6,-17.9,58.8,-5.9,56.8,6.9C54.8,19.7,49.7,31.1,41.4,39.5C33.1,47.8,21.6,53.1,9.9,55.3C-1.8,57.5,-13.5,56.6,-24.3,52.7C-35.1,48.8,-44.9,41.8,-52.7,32.8C-60.6,23.8,-66.4,12.8,-69.2,0.8C-72, -11.2,-71.8,-23.2,-68.6,-33.2C-65.4,-43.2,-59.2,-51.2,-50,-56.2C-40.8,-61.2,-29.6,-63.2,-17.4,-63.2C-5.2,-63.2,8.9,-61.2,20.1,-57.2C31.3,-53.2,40.6,-47.2,48,-39.2Z" transform="translate(75 75)" />
+    </svg>
+  </div>
+  <div class="absolute bottom-0 left-0 w-1/6 h-1/3 opacity-5">
+    <svg viewBox="0 0 150 150" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#FFD700" d="M35.0,-59.8C45.9,-54.8,55.7,-47.0,62.5,-36.3C69.2,-25.6,72.9,-12.8,72.5,0.7C72.0,14.2,67.5,27.7,59.0,38.1C50.5,48.5,38.0,55.9,24.5,60.2C11.0,64.6,-2.5,65.9,-16.0,64.1C-29.5,62.3,-43.0,57.5,-53.3,49.7C-63.7,41.9,-70.8,31.1,-74.7,18.3C-78.7,5.6,-79.4,-7.8,-76.5,-20.2C-73.5,-32.6,-67.0,-43.9,-57.0,-52.1C-47.0,-60.3,-33.5,-65.5,-18.5,-67.6C-3.5,-69.7,11.5,-68.8,24.0,-65.8Z" transform="translate(75 75)" />
+    </svg>
+  </div>
+
+  <div class="container mx-auto px-3 md:px-4 relative z-10">
+    <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6 md:gap-8">
+      <!-- 公司信息卡片 -->
+      <div class="bg-white/5 backdrop-blur-sm rounded-lg p-4 shadow-md transform hover:scale-105 transition-all duration-300 border border-white/10">
+        <h3 class="text-lg font-bold mb-3 flex items-center">
+          <span class="text-yellow-400 mr-2 text-sm">•</span>
+          关于我们
+        </h3>
+        <p class="text-gray-300 mb-3 text-xs leading-relaxed">
+          大连金汇包装材料有限公司是专业承做塑料薄膜的印刷包装企业，致力于提供高品质包装解决方案。
+        </p>
+        <a href="About.html" class="inline-flex items-center text-yellow-400 hover:text-yellow-300 text-xs font-medium transition-colors duration-300">
+          了解更多 <i class="fa fa-arrow-right ml-1 text-[10px]"></i>
+        </a>
+      </div>
+
+      <!-- 快速链接卡片 -->
+      <div class="bg-white/5 backdrop-blur-sm rounded-lg p-4 shadow-md transform hover:scale-105 transition-all duration-300 border border-white/10">
+        <h3 class="text-lg font-bold mb-3 flex items-center">
+          <span class="text-yellow-400 mr-2 text-sm">•</span>
+          快速链接
+        </h3>
+        <ul class="space-y-2">
+          <li>
+            <a href="cur.html" class="flex items-center text-gray-300 hover:text-yellow-400 text-xs transition-colors duration-300">
+              <i class="fa fa-link text-yellow-400 mr-2 w-4 text-center text-[10px]"></i>
+              <span>首页</span>
+            </a>
+          </li>
+          <li>
+            <a href="product.html" class="flex items-center text-gray-300 hover:text-yellow-400 text-xs transition-colors duration-300">
+              <i class="fa fa-link text-yellow-400 mr-2 w-4 text-center text-[10px]"></i>
+              <span>产品案例</span>
+            </a>
+          </li>
+          <li>
+            <a href="rongyu.html" class="flex items-center text-gray-300 hover:text-yellow-400 text-xs transition-colors duration-300">
+              <i class="fa fa-link text-yellow-400 mr-2 w-4 text-center text-[10px]"></i>
+              <span>荣誉资质</span>
+            </a>
+          </li>
+          <li>
+            <a href="Factory.html" class="flex items-center text-gray-300 hover:text-yellow-400 text-xs transition-colors duration-300">
+              <i class="fa fa-link text-yellow-400 mr-2 w-4 text-center text-[10px]"></i>
+              <span>公司实力</span>
+            </a>
+          </li>
+          <li>
+            <a href="info.html" class="flex items-center text-gray-300 hover:text-yellow-400 text-xs transition-colors duration-300">
+              <i class="fa fa-link text-yellow-400 mr-2 w-4 text-center text-[10px]"></i>
+              <span>资讯中心</span>
+            </a>
+          </li>
+          <li>
+            <a href="job.html" class="flex items-center text-gray-300 hover:text-yellow-400 text-xs transition-colors duration-300">
+              <i class="fa fa-link text-yellow-400 mr-2 w-4 text-center text-[10px]"></i>
+              <span>人才招聘</span>
+            </a>
+          </li>
+          <li>
+            <a href="About.html" class="flex items-center text-gray-300 hover:text-yellow-400 text-xs transition-colors duration-300">
+              <i class="fa fa-link text-yellow-400 mr-2 w-4 text-center text-[10px]"></i>
+              <span>关于我们</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- 微信二维码卡片 -->
+     <div class="bg-white/5 backdrop-blur-sm rounded-lg p-4 shadow-md transform hover:scale-105 transition-all duration-300 border border-white/10">
+       <h3 class="text-lg font-bold mb-3 flex items-center">
+         <span class="text-yellow-400 mr-2 text-sm">•</span>
+         微信二维码
+       </h3>
+       <div class="bg-white/10 rounded-lg p-2 inline-block">
+         <div class="bg-white p-1 rounded">
+           <img src="erweima.jpg" alt="微信二维码" class="w-28 h-28 object-cover rounded text-xs">
+         </div>
+       </div>
+       <p class="text-center mt-3 text-gray-300 text-xs">扫描加好友</p>
+     </div>
+     
+     <!-- 联系方式卡片 -->
+     <div class="bg-white/5 backdrop-blur-sm rounded-lg p-4 shadow-md transform hover:scale-105 transition-all duration-300 border border-white/10">
+     	<h3 class="text-lg font-bold mb-3 flex items-center">
+     		<span class="text-yellow-400 mr-2 text-sm">•</span>
+     		联系方式
+     	</h3>
+     	<ul class="space-y-3">
+     		<li class="flex items-start">
+     			<i class="fa fa-map-marker text-yellow-400 mt-1 mr-2 w-4 text-center text-[10px]"></i>
+     			<span class="text-gray-300 text-xs">辽宁省大连市开发区通辽街2号</span>
+     		</li>
+     		<li class="flex items-center">
+     			<i class="fa fa-phone text-yellow-400 mr-2 w-4 text-center text-[10px]"></i>
+     			<span class="text-gray-300 text-xs">15040580736</span>
+     		</li>
+     		<li class="flex items-center">
+     			<i class="fa fa-envelope text-yellow-400 mr-2 w-4 text-center text-[10px]"></i>
+     			<span class="text-gray-300 text-xs">961506415@qq.com</span>
+     		</li>
+     	</ul>
+        
+        <!-- 社交媒体链接 -->
+        <div class="mt-4">
+          <h4 class="text-xs font-medium text-gray-400 mb-2">关注我们</h4>
+          <div class="flex space-x-2">
+            <a href="#" class="w-7 h-7 rounded-full bg-white/10 flex items-center justify-center text-gray-300 hover:bg-yellow-400 hover:text-blue-900 transition-all duration-300 text-[10px]">
+              <i class="fa fa-weixin"></i>
+            </a>
+            <a href="#" class="w-7 h-7 rounded-full bg-white/10 flex items-center justify-center text-gray-300 hover:bg-yellow-400 hover:text-blue-900 transition-all duration-300 text-[10px]">
+              <i class="fa fa-weibo"></i>
+            </a>
+            <a href="#" class="w-7 h-7 rounded-full bg-white/10 flex items-center justify-center text-gray-300 hover:bg-yellow-400 hover:text-blue-900 transition-all duration-300 text-[10px]">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 版权信息 -->
+    <div class="mt-8 pt-6 border-t border-white/10 text-center text-gray-400 text-[10px]">
+      <p>© 2025 大连金汇包装材料有限公司. 保留所有权利.</p>
+    </div>
+  </div>
+</footer>
+
+  <!-- 返回顶部按钮 -->
+  <button id="back-to-top" class="fixed bottom-6 right-6 bg-primary text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg opacity-0 invisible transition-all z-50">
+    <i class="fa fa-angle-up text-xl"></i>
+  </button>
+
+<script src="F2.js"></script>
+</body>
+</html>
